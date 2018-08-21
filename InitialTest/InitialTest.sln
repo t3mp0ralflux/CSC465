@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "InitialTest", "..\..\..\Drive\CSC465\InitialTest\InitialTest\InitialTest.phpproj", "{87F832AF-9478-49F1-B628-8624B29BAE62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87F832AF-9478-49F1-B628-8624B29BAE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F832AF-9478-49F1-B628-8624B29BAE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB7E75D7-EB78-429C-971C-4B9E67DD8999}
+	EndGlobalSection
+EndGlobal
