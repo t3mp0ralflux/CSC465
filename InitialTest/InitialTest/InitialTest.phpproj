@@ -16,11 +16,19 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Coffee.php" />
+    <Compile Include="Controllers\CoffeeController.php" />
+    <Compile Include="Entities\CoffeeEntity.php" />
     <Compile Include="index.php" />
+    <Compile Include="Model\CoffeeModel.php" />
+    <Compile Include="Model\Credentials.php" />
     <Compile Include="Template.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Model\" />
+    <Folder Include="Controllers\" />
     <Folder Include="Styles\" />
   </ItemGroup>
   <ItemGroup>
