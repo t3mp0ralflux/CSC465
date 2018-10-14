@@ -1,4 +1,10 @@
-﻿body {
+﻿/* 
+Author: Brent Belanger
+Company: t3mp0ralflux Designs
+Copyright 2018 
+*/
+
+body {
     font-family: lucida grande, tahoma, verdana, arial, sans-serif;
     background-color: #e9e9e9;
 }
@@ -16,22 +22,26 @@
     border: 5px solid #dedede;
 }
 
-#banner {
+header {
     background-image: url(../Images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px solid #dedede;
     height: 200px;
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+    text-align: right;
 }
 
-#content_area {
+section {
     float: left;
     width: 750px;
     margin: 20px 0 20px 0;
     padding: 10px;
 }
 
-#sidebar {
+aside {
     float: right;
     width: 250px;
     height: 400px;
@@ -43,7 +53,7 @@
 footer {
     clear: both;
     width: auto;
-    height: 40px;
+    height: 60px;
     padding: 10px;
     border: 3px solid #e3e3e3;
     text-align: center;
@@ -103,4 +113,27 @@ footer {
     height: 250px;
     margin: 0 0 10px 10px;
     padding: 10px;
+}
+
+.coffeeTable
+{
+    width: 750px;
+    height: 250px;
+    margin: 10px 10px 10px 0px;
+    border: 3px solid #E3E3E3;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.coffeeTable tr th, .coffeeTable tr td 
+{
+    text-align: left;
+    padding: 0px 5px 0px 5px;
+}
+
+.coffeeTable img
+{
+    padding: 0px 10px 10px 10px;
+    height: 150px;
+    width: 150px;
 }

@@ -1,5 +1,5 @@
 body{
-    width: 80%;
+    width: 60%;
     background-color: rgb(216, 216, 216);
     margin: 10% auto;  /*Center this block */
     border: 0.3em solid rgb(255, 255, 255); 
@@ -7,11 +7,47 @@ body{
 
 input{
     margin-left: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     display:inline-block;
     float:left;
 }
+
+select{
+	margin-left: 5px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    float:left;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+	margin-top: 50px;
+	display:inline-block;
+	float:left;
+	margin-left:-15px;
+	
+}
+
+.button:hover {
+    background-color: green;
+}
+
+.radio{
+	transform:scale(1.3);
+}
+
+.checkbox{
+	transform:scale(1.5);
+}
+
 
 #Email{
     width: 200px;
@@ -26,4 +62,5 @@ label{
     clear: left;
     width: 250px;
     text-align: right;
+	margin-top:10px;
 }
